@@ -1,0 +1,11 @@
+SQL * FROM [Customers]
+where ContactName regexp "s"
+
+select * FROM Customers
+where city regexp "ds"
+
+select * FROM Customers
+where city regexp "[a-h]"
+
+select * FROM Customers
+where city regexp "[a-h]s"
