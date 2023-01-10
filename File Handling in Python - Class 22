@@ -1,0 +1,56 @@
+file=open("random.txt","w")
+file.write("blah blah blah")
+file.write("\new line")
+file.close()
+
+file=open("random.txt","w")
+file.write("jatin katyal")
+a=["jatin","samarth","sujith","saransh"]
+file.writelines(a)
+file.close()
+
+file=open("sample.txt","r")
+file.read()
+print(file.read())
+
+with open ("random.txt","r") as file:
+    print(file.read())
+
+print(file.read())
+
+class A:
+    def_enter_(self):
+        print("Enterd")
+        return 1
+    def_exit_(self,*args):
+        print("Exitted")
+        print(args)
+        return True
+    
+with A() as x:
+    print(x)
+    print("inside content")
+    raise Exception
+
+print("outside content")
+
+
+xml
+html
+
+
+a={
+    "name": "Jatin Katyal",
+    "marks":100,
+    "languages":[
+        "c++",
+        "python",
+        "go",
+        "rust"
+    ]
+}
+
+import json
+s=json.dump(a)
+type(s)
+print(s)
